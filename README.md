@@ -13,9 +13,17 @@ This is a discord bot intended to be an easy-access database for information on 
 For now, in the `src/` folder you'll find:
 | File | Status | Purpose |
 | ---- | ------ | ------- |
-| `squishbot.js` | Not started | Handler for all Discord interactions. |
+| `squishbot.js` | Not started | Handler for all Discord interactions. Send messages, pictures, and Squishmallows from this file! |
 | `squishfinder.js` | Not started | This file finds information on squishmallows, for `squishbot.js` to tell users. |
 | `?` | ? | ? |
+
+<br>
+
+## Dependencies
+The following [Node.js](https://nodejs.org) packages will have to be installed to run this bot:
+- `discord.js` | Discord API
+- `dotenv` | Access to environmental variables
+- `node-fetch` | Allows HTTP requests to be executed
 
 <br>
 
