@@ -24,6 +24,8 @@ The following [Node.js](https://nodejs.org) packages will have to be installed t
 - `discord.js` | Discord API
 - `dotenv` | Access to environmental variables
 - `node-fetch` | Allows HTTP requests to be executed
+- `node-html-parser` | Allows easy parsing of HTML content
+To install these packages after downloading Node, open a terminal and type in `npm install <package-name>`
 
 <br>
 
