@@ -13,9 +13,28 @@ This is a discord bot intended to be an easy-access database for information on 
 For now, in the `src/` folder you'll find:
 | File | Status | Purpose |
 | ---- | ------ | ------- |
-| `squishbot.js` | Not started | Handler for all Discord interactions. Send messages, pictures, and Squishmallows from this file! |
-| `squishfinder.js` | Not started | This file finds information on squishmallows, for `squishbot.js` to tell users. |
-| `?` | ? | ? |
+| `squishbot.js` (front-end) | [Not started](https://github.com/Raymond-exe/squishbot/blob/master/src/squishbot.js) | Handler for all Discord interactions. Send messages, pictures, and Squishmallows from this file! |
+| `squishfinder.js` (back-end) | [WIP](https://github.com/Raymond-exe/squishbot/blob/master/src/squishfinder.js) | This file finds information on squishmallows, for `squishbot.js` to tell users. |
+| `?` | [?](https://www.youtube.com/watch?v=dQw4w9WgXcQ) | ? |
+
+<br>
+
+## Back-end functions 
+##### squishfinder.js
+| Name | Object type | Description |
+| ---- | ----------- | ----------- |
+| `MASTER_LIST` | array | An array containing all squishmallows in the format below this table.
+| `updateMasterList()` | async function | Updates `MASTER_LIST` to contain all squishmallows currently listed [here](https://squishmallowsquad.fandom.com/wiki/Master_List).
+| `getSquishmallowInfo()` | async function | Accepts a squishmallow object from `MASTER_LIST` and returns a [`Map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) containing the following fields: "title", "link", "img", "subtext", "Bio", and "Appearance". "Bio" & "Appearance" may not always be present, so check before accessing those fields.  |
+### *Squishmallow objects*
+```js
+// objects in MASTER_LIST are formatted as:
+{
+    name: 'Cam'
+    link: 'https://squishmallowsquad.fandom.com/wiki/Cam'
+}
+```
+
 
 <br>
 
