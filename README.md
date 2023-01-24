@@ -1,7 +1,7 @@
 # ***Squishbot*** | A Discord bot for Squishmallows
 ##### My girlfriend's first coding project! ᵔ ᵕ ᵔ
 
-<img src="http://cdn.shopify.com/s/files/1/0559/8235/8698/products/Untitled_Artwork_12.png?v=1620884654" alt="Squishmallows!" width="100"/>
+<img src="https://user-images.githubusercontent.com/42707243/214195526-ccb4374c-30bb-42f6-9fbf-f60bd29683bb.png" alt="Squishmallows!" width="300"/>
 
 
 ## Description
